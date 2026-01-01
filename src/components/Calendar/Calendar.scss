@@ -1,0 +1,26 @@
+.calendar-container {
+    width: 300px;
+    padding: 10px;
+
+    .calendar-header {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .calendar-weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .calendar-days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+
+        .highlighted {
+            background-color: grey;
+            color: white;
+            font-weight: 700;
+            width: 20px;
+        }
+    }
+}
