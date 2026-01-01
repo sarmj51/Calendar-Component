@@ -3,7 +3,7 @@ import { Calendar } from './components/Calendar/Calendar';
 
 function App() {
   return (
-    <Calendar date={'05/05/2020'} />
+    <Calendar date={'23/05/2020'} />
   );
 }
 
